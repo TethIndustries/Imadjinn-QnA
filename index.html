@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <!-- Styling page -->
+    <link href="/styles.css" rel="stylesheet">
+    <!-- icon CDN -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />    
+
+    <link rel="icon" type="image/png" href="/images/logo.png"/>
+    <title>WHITE ROOM</title>
+</head>
+<body>
+
+    <div class="top-div">
+        <label for="animation"> Animações de título (desativar melhora a performance)</label>
+        <input type="checkbox" id="animation" name="animaiton" checked onclick="toggleAnimation()">
+        
+        <div class="tooltip">
+            <a href="https://www.youtube.com/channel/UCnR9gJdsR9HIo81MxDLHMVg" target="_blank"> <i class="social-icon fab fa-youtube fa-2x"></i> </a>
+            <span class="tooltiptext">Interessado(a)? Confira o banco de dados!</span>
+        </div>
+
+    </div>
+
+    <div class="content">   
+        <button id="start" onclick="startGame()" class="btn">Começar</button>
+        <div id="wrapper" class="wrapper">
+            <h2 id="current-act" class="act-title focus-in-contract-bck">Act Title</h2>
+            <div class="container">
+                <div id="text">Text</div>
+                <div id="option-buttons" class="btn-grid">
+                    <button class="btn">Option 1</button>
+                    <button class="btn">Option 2</button>
+                    <button class="btn">Option 3</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© Copyright 2021 <span id="year"></span> Teth Industries</p>
+    </div>
+
+</body>
+<!-- Actual page content -->
+<script defer src="/js/WHITE ROOM.js"></script>
+<!-- Dynamic Copyright -->
+<script src="/js/copyright.js"></script>
+<!-- Toggle Animation -->
+<script src="/js/animation.js"></script>
+</html>

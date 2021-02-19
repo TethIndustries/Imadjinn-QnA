@@ -1,0 +1,278 @@
+*{
+        box-sizing: border-box;
+        font-family: Roboto, Impact;
+}
+
+body {
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        min-height: 100vh;
+        /* background-image: radial-gradient(circle, #000000,#0c0c0c, #292929,  #1f1e1e, rgb(119, 44, 0), #1f1e1e, #292929, #1d1c1b); */
+        background-image: linear-gradient(89deg, #0c0c0c, #1d1c1b, #292929,#292929, rgb(167, 61, 0), #292929,#292929, #1d1c1b , #0c0c0c);
+        background-size: cover;
+        overflow-x: hidden;
+}
+
+.top-div{
+        padding: 5px;
+        font-size: small;
+        color: whitesmoke;
+        margin-bottom: 3%;
+}
+
+/* ---------------------------------------------- SOCIAL MEDIA STYLING ------------------------------------------- */
+.social-icon{
+    float: right;
+    color: rgb(228, 228, 228);
+    text-decoration: none;
+    padding: 5px;
+}
+.social-icon:hover{color: white;}
+
+.tooltip {
+  position: relative;
+  float: right;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgba(0, 0, 0, 0.24);
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 5px;
+  right: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* ----------------------------------------------- PAGE CONTENT CONTAINER ----------------------------------------- */
+.content{
+        text-align: center;
+        margin: auto;
+        margin-top: 40px;
+}
+
+.footer{
+    padding: 20px;
+    color: #77746f;
+    text-align: center;
+    width: 100%;
+}
+
+.footer p{
+    margin: auto;
+    padding: 5px;
+    font-size: small;
+}
+
+.wrapper{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+        height: auto;
+        display: none;
+        margin: auto;
+}
+
+.act-title{
+        /* inline-block permite aumentar o tamanho do div e manter a propriedade inline do display */
+        display: inline-block;
+        margin-top: 0;
+        padding: 5px 20px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: white;
+}
+
+.container {
+        text-align: justify;
+        background-color: #3f3d3a94 ;
+        color: white;
+        padding: 15px;
+        box-shadow: 0 6px 15px -8px rgba(255, 136, 0, 0.493);
+}
+
+.btn-grid {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        gap: 10px;
+        margin: 20px;
+}
+
+.btn {
+        background-color: rgb(51, 51, 51);
+        border: 2px solid white;
+        border-radius: 5px;
+        padding: 8px 10px;
+        color: hsl(17, 100%, 50%);
+        outline: none;
+}
+
+.btn:hover {
+        border-color: hsl(22, 100%, 50%);
+}
+
+.btn:active {
+        position: relative;
+        top: 2px;
+}
+
+.btn-special{
+	-webkit-animation: vibrate-1 0.2s linear infinite both;
+	animation: vibrate-1 0.2s linear infinite both;
+        color: hsl(17, 100%, 50%);
+}
+
+@-webkit-keyframes vibrate-1 {
+    0% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+    20% {
+      -webkit-transform: translate(-0.5px, 0.5px);
+              transform: translate(-0.5px, 0.5px);
+    }
+    40% {
+      -webkit-transform: translate(-0.5px, -0.5px);
+              transform: translate(-0.5px, -0.5px);
+    }
+    60% {
+      -webkit-transform: translate(0.5px, 0.5px);
+              transform: translate(0.5px, 0.5px);
+    }
+    80% {
+      -webkit-transform: translate(0.5px, -0.5px);
+              transform: translate(0.5px, -0.5px);
+    }
+    100% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+}
+@keyframes vibrate-1 {
+    0% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+    20% {
+      -webkit-transform: translate(-0.5px, 0.5px);
+              transform: translate(-0.5px, 0.5px);
+    }
+    40% {
+      -webkit-transform: translate(-0.5px, -0.5px);
+              transform: translate(-0.5px, -0.5px);
+    }
+    60% {
+      -webkit-transform: translate(0.5px, 0.5px);
+              transform: translate(0.5px, 0.5px);
+    }
+    80% {
+      -webkit-transform: translate(0.5px, -0.5px);
+              transform: translate(0.5px, -0.5px);
+    }
+    100% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+}
+
+/* -------------------------------------------- CUSTOM SCROLLBAR ------------------------------------------------------ */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #6e7783;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(59, 59, 59);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(48, 48, 48);
+}
+
+/* Desktop Specific */
+@media only screen and (min-width: 1000px){
+
+.focus-in-contract-bck {
+        -webkit-animation: focus-in-contract-bck 1800ms cubic-bezier(0.860, 0.000, 0.070, 1.000) both;
+	        animation: focus-in-contract-bck 1800ms cubic-bezier(0.860, 0.000, 0.070, 1.000) both;
+}
+
+@-webkit-keyframes focus-in-contract-bck {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(300px);
+              transform: translateZ(300px);
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(12px);
+              transform: translateZ(12px);
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+}
+@keyframes focus-in-contract-bck {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(300px);
+              transform: translateZ(300px);
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(12px);
+              transform: translateZ(12px);
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+}
+
+}
+
+/* Mobile Specific */
+@media only screen and (max-width: 800px){
+        
+        .checkbox{
+                display: none;
+        }
+
+        .wrapper{
+                width: 95%;
+        }
+
+}
+
+@media only screen and (orientation: landscape){
+        
+        .content{
+                margin-top: 5px;
+        }
+
+}
