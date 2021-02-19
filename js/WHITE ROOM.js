@@ -164,7 +164,7 @@ const textNodes = [
     },
     {
         id: 'Imadjinn',
-        text: '"Tenho que admitir, é difícil falar sobre esse assunto de uma forma que não seja muito abstrata. Imadjinn vem da junção das palavras "Image" e "Djinn". Basicamente, é a capacidade de um ser - ou objeto, em alguns casos - de manifestar algo a partir de imagens que o usuário fornece. Por exemplo: digamos que você esteja com muita fome e pense "Eu adoraria comer uma maçã". Contanto que você mantesse uma imagem clara de uma maçã em sua mão, o Imadjinn iria criar praticamente do nada uma maçã para você comer. Como parte do nome sugere, é igual ter um gênio da lâmpada."',
+        text: '"Tenho que admitir, é difícil falar sobre esse assunto de uma forma que não seja muito abstrata. Imadjinn vem da junção das palavras "Image" e "Djinn". Basicamente, é a capacidade de um ser - ou objeto, em alguns casos - de manifestar algo a partir de imagens que o usuário forma na mente. Por exemplo: digamos que você esteja com muita fome e pense "Eu adoraria comer uma maçã". Contanto que você mantesse uma imagem clara de uma maçã em sua mão, o Imadjinn irá criar praticamente do nada uma maçã para você comer. Como parte do nome sugere, é igual ter um gênio da lâmpada."',
         options: [
             {
                 text: 'Quer dizer então que eu posso criar qualquer coisa quando eu quiser?',
@@ -246,7 +246,7 @@ const textNodes = [
     },
     {
         id: 'Dara Allers e a Sala',
-        text: '"Apesar de ser uma pessoa comum, digo, não ser uma semi-deusa superpoderosa abençoada desde o nascimento, a Dra. Allers tem várias conexões com pessoas que são. Traduzindo, a Doutora é amiga do rapaz que criou a Sala, e possui a virtude de, como algumas pessoas dizem, "Ter a chave da casa". Infelizmente, a Dra. Allers não tem muito tempo para desenvolver qualquer coisa aqui dentro, então ela deixou o lugar vago para que eu possa fazer o que for."',
+        text: '"Apesar de ser uma pessoa comum, digo, não ser uma semi-deusa superpoderosa abençoada desde o nascimento, a Dra. Allers tem várias conexões com pessoas que são. Traduzindo, a Doutora é amiga do rapaz que criou a Sala, e possui a virtude de, como algumas pessoas dizem, "ter a chave da casa". Infelizmente, a Dra. Allers não tem muito tempo para desenvolver qualquer coisa aqui dentro, então ela deixou o lugar vago para que eu possa fazer o que for."',
         options: [
             {
                 text: 'E você? O que você faz aqui?',
@@ -264,7 +264,7 @@ const textNodes = [
     },
     {
         id: 'A Moralidade das Memórias',
-        text: '"De fato, houveram muitas discussões entre os envolvidos ao criar esse projeto. Muitos confiavam na mente genial da Senhora Allers, mas essa mesma maioria temia o que algo como reviver as memórias de uma pessoa morta poderia causar para suas carreiras. Por causa disso o projeto foi feito em silêncio, escondido do olho público e executado apenas quando a situação requeria uma medida drástica. Então chega o dia: Kat morre em um corpo metálico, e em um momento de fraqueza Lady Allers decide "puxar a alavanca"."',
+        text: '"De fato, houveram muitas discussões entre os envolvidos ao criar esse projeto. Muitos confiavam na mente genial de Lady Allers, mas essa mesma maioria temia o que algo como reviver as memórias de uma pessoa morta poderia causar para suas carreiras. Por causa disso o projeto foi feito em silêncio, escondido do olho público e executado apenas quando a situação requeria uma medida drástica. Então chega o dia: Kat morre em um corpo metálico, e em um momento de fraqueza Lady Allers decide "puxar a alavanca"."',
         options: [
             {
                 text: '*Voltar para o começo*',
@@ -274,7 +274,7 @@ const textNodes = [
     },
     {
         id: 'O Custo de um Desejo',
-        text: '"Não é bem assim que funciona. Em ordem para se criar alguma coisa, você precisa primeiro dar outra em troca. É aí que entra o obscuro termo "Essência": cada pessoa possui uma quantidade de Essência que é gasta quando se conjura uma magia, utiliza um poder, ou nesse caso, faz um desejo. Dependendo da pessoa, a reserva de Essência é maior, e dependendo da ação, uma quantidade maior de Essência é utilizada. Ao fazer um "desejo", você gasta uma quantidade enorme de Essência, então não é recomendado que você saia por aí criando qualquer coisa do nada. Para referência do que pode acontecer, imagine que você é uma duna de areia e está ventando bastante."',
+        text: '"Não é bem assim que funciona. Em ordem para se criar alguma coisa, você precisa primeiro dar outra em troca. É aí que entra o obscuro termo "Essência": cada pessoa possui uma quantidade de Essência que é gasta quando se conjura uma magia, utiliza um poder, ou nesse caso, faz um desejo. Dependendo da pessoa, pode ser maior, e dependendo da ação, uma quantidade maior é utilizada. Ao fazer um "desejo", você gasta uma quantidade enorme de Essência, então não é recomendado que você saia por aí criando qualquer coisa do nada. Para referência do que pode acontecer, imagine que você é uma duna de areia, e está ventando bastante."',
         options: [
             {
                 text: 'Seu exemplo da maçã não parece tão abstrato...',
@@ -488,7 +488,7 @@ const textNodes = [
         text: '"Eu passo a maior parte do meu tempo conversando com vocês, ouvindo um pouco de música, tentando não ter uma crise existêncial, tudo isso daqui da Sala. Ter acesso ao Imadjinn ajuda. Eu posso trazer vocês aqui dentro de vez enquando - como aquela vez na praia - e acessar a internet do tempo de vocês. É um processo meio complicado mas que valhe a pena no final."' ,
         options: [
             {
-                text: 'Você tem que fazer mais daqueles eventos na praia.',
+                text: 'Você tem que fazer mais daqueles eventos na praia!',
                 nextText: "Eventos"
             }
         ]
@@ -536,7 +536,7 @@ const textNodes = [
     },
     {
         id: 'Did You Like the Drink?',
-        text: 'Você foca no barulho vindo da pequena máquina e faz um desejo, se sentindo mais e mais cansado conforme uma imagem turva se forma. Você vê de relance o ambiente da boate, com diversas pessoas conversando e enormes quantidades de uma bebida de uma marca desconhecida. Tudo isso vai rapidamente se desfazendo, dando lugar a um abiente escuro e frio. No lugar de cada pessoas vista antes se encontra uma pilha de corpos: alguns debruçados em um balcão, outros simplemente jogados ao piso, e na mesa onde você se encontra estão mais quatro. \n Ao seu lado, um par de esqueletos abraçados uns aos outros. Devido à mesa ser vinculada à parede, você não consegue sair do seu assento sem ter que passar por cima de tudo aquilo, mas em duas pontas opostas da mesa estão as outras duas pessoas, aparentemente vivas. Um homem à sua esquerda diz algo que você não consegue ouvir e acende um cigarro. Se levantando da mesa, pergunta algo para uma garota à sua direita, segurando um copo fino com um líquido vermelho dentro. Ela se esforça para responder, olhando horrorizada em direção ao copo. O homem faz uma careta de desgosto, pega um revolver por dentro do colete e puxa o gatilho.' ,
+        text: 'Você foca no barulho vindo da pequena máquina e faz um desejo, se sentindo mais e mais cansado conforme uma imagem turva se forma. Você vê de relance o ambiente da boate, diversas pessoas conversando e enormes quantidades de uma bebida de uma marca desconhecida. Tudo isso vai rapidamente se desfazendo, dando lugar a um abiente escuro e frio. No lugar de cada pessoas vista antes se encontra uma pilha de corpos: alguns debruçados no balcão, outros simplemente jogados ao piso, e na mesa onde você se encontra estão mais quatro. \n Ao seu lado, um par de esqueletos abraçados uns aos outros. Devido à mesa ser vinculada à parede, você não consegue sair do seu assento sem ter que passar por cima de tudo aquilo, mas em duas pontas opostas da mesa estão as outras duas pessoas, aparentemente vivas. Um homem à sua esquerda diz algo que você não consegue ouvir e acende um cigarro. Se levantando da mesa, ele parece perguntae algo para uma garota à sua direita, segurando um copo fino com um líquido vermelho dentro. Ela se esforça para responder, olhando horrorizada em direção ao copo. O homem faz uma careta de desgosto, pega um revolver por dentro do colete e puxa o gatilho.' ,
         options: [
             {
                 text: '*Continuar*',
@@ -546,7 +546,7 @@ const textNodes = [
     },
     {
         id: '[Die a Third Time]',
-        text: 'Você percebe se tratar de uma memória, mas os detalhes como sempre são difíceis de discernir. Tentando se mover, você sente que algo - ou alguém - lhe prende no lugar, impossibilitado de se mexer. Sua visão clareia um pouco, porém turva em um véu azulado, e você se vê na Sala Branca através de outra perspectiva. A vista é alta, circundando uma parte da Sala que você não alcançaria normalmente. Olhando para baixo, você vê o que parece um pequeno cubo inclinado acima de um de seus vértices, negro e metálico. Próximo deste cubo há o que parece ser uma pessoa, sua forma tremeluzindo em um mar digitalizado. A pessoa conversa com o cubo, fazendo diversas perguntas, e conforme cada tópico uma figura obscurecida por uma névoa estranha começa a surgir a partir da sombra da pessoa. Ninguém parece perceber a figura, mas cada pergunta a faz aumentar em tamanho, até que seus olhos azuis se encontram com os seus, brilhando fortemente. O cubo cai ao chão.' ,
+        text: 'Você percebe se tratar de uma memória, mas os detalhes como sempre são difíceis de discernir. Tentando se mover, você sente que algo lhe prende no lugar. Sua visão clareia um pouco, porém turva em um véu azulado, e você se vê na Sala Branca através de outra perspectiva. A vista é alta, circundando uma parte da Sala que você não alcançaria normalmente. Olhando para baixo, você vê o que parece um pequeno cubo inclinado acima de um de seus vértices, negro e metálico. Próximo deste cubo há o que parece ser uma pessoa, sua forma tremeluzindo em um mar digitalizado.\n A pessoa conversa com o cubo, fazendo diversas perguntas, e conforme cada tópico uma figura obscurecida por uma névoa estranha começa a surgir a partir da sombra da pessoa. Ninguém parece perceber a figura, mas cada pergunta a faz aumentar em tamanho, até que seus olhos azuis se encontram com os seus, brilhando fortemente. O cubo cai ao chão.' ,
         options: [
             {
                 text: '*Continuar*',
@@ -560,7 +560,7 @@ const textNodes = [
         text: 'Você pisca, e tanto a figura desconhecida quanto a pessoa digitalizada não estão mais alí, salvo por um buraco enorme no piso branco, próximo ao cubo.' ,
         options: [
             {
-                text: '*Seguir em direção ao buraco no chão*',
+                text: '*Descer em direção ao buraco no chão*',
                 requiredState: (currentState) => !currentState.endingLore,
                 nextText: "[Peer Into the Abyss]"
             },
@@ -589,7 +589,7 @@ const textNodes = [
     },
     {
         id: '[Peer Into the Abyss]',
-        text: 'Adentrando pelo buraco, nada parece fazer sentido. As paredes não uma mistura de rocha polida e vidro, com algo brilhando por dentro. A linha do horizonte parece contorcer, curvando-se para baixo mas ainda possibilitando a visão. No limite da sua visão há o que parece ser você, seguindo o mesmo caminho, momentos no futuro. Seu outro "eu" olha para trás, medo e curiosidade visivelmente estampados na face, e então segue em frente, perguntando se o túnel acaba. Você dá alguns passos mais adiante antes de repetir o mesmo moviemento, medo e curiosidade lhe compelindo a vislumbrar outro você, seguindo o mesmo caminho alguns momentos no passado. Você segue adiante.' ,
+        text: 'Adentrando pelo buraco, nada parece fazer sentido. As paredes não uma mistura de rocha polida e vidro, com algo brilhando por dentro. A linha do horizonte parece contorcer, curvando-se para baixo mas ainda possibilitando a visão. No limite da sua visão há o que parece ser você, seguindo o mesmo caminho, momentos no futuro. Seu outro "eu" olha para trás, medo e curiosidade visivelmente estampados na face, e então segue em frente, perguntando se o túnel acaba.\n Você dá alguns passos mais adiante antes de repetir o mesmo moviemento, medo e curiosidade lhe compelindo a vislumbrar outro você, seguindo o mesmo caminho alguns momentos no passado. Você segue adiante.' ,
         options: [
             {
                 text: 'Esse túnel termina em algum lugar?',
@@ -647,7 +647,7 @@ const textNodes = [
     {
         id: 'speaking with occultus',
         currentAct: 'Conversando com Occultus',
-        text: '"... Suponho que não. Permita-me esclarecer melhor nossa situação: É por lei dos Deuses que mais ninguém de fora de nossa própria dimensão possa interagir conosco. A campeã está altamente envolvida com o panteão criacionista, e portanto, sujeita à lei imposta por eles.". A figura retira de dentro de sua forma o que parece ser uma pequena esfera, brilhando um tom laranja um tanto familiar.\n Ela continua: "Revelando sobre a nossa existência, Katlynn Mardunn já colocou a todos nós em risco, mas deliberadamente conversar sobre nós é uma afronta que não podemos deixar passar impune."' ,
+        text: '"... Suponho que não. Permita-me esclarecer melhor nossa situação: É por lei dos Deuses que mais ninguém de fora de nossa própria dimensão possa interagir conosco. A campeã está altamente envolvida com o panteão criacionista, e portanto, sujeita à lei imposta por eles.". A figura retira de dentro de sua forma o que parece ser uma pequena esfera, brilhando um tom laranja um tanto familiar.\n Ela continua: "Revelando sobre a nossa existência, Katlynn Mardunn colocou a todos nós em risco, mas deliberadamente conversar sobre nós foi uma afronta que não podemos deixar passar impune."' ,
         options: [
             {
                 text: 'Matar minha amiga não vai resolver nada!',
@@ -658,7 +658,7 @@ const textNodes = [
     {
         id: 'speaking with occultus pt.2',
         currentAct: 'Conversando com Occultus',
-        text: '"Talvez não, talvez sim, mas a palavra dos Deuses é lei. Estou, entretanto, disposto a mudar o destino dessa pobre criatura, contanto que você sugira algo equivalente. O que me diz? Mas escolha suas palavras com cuidado, posso não ter tanta paciência quanto os outros."' ,
+        text: '"Talvez não, talvez sim, mas a palavra dos Deuses é lei, e meu trabalho é garantir que o segredo de nossa existência permaneça escondido de seres do exterior e punir qualquer um que venha a desafiar nossa decisão. Estou, entretanto, disposto a mudar o destino dessa pobre criatura, contanto que você sugira algo equivalente. O que me diz? Mas escolha suas palavras com cuidado, posso não ter tanta paciência quanto os outros."' ,
         options: [
             {
                 text: 'Pera, como é que é?',
@@ -669,7 +669,7 @@ const textNodes = [
     {
         id: 'final chapter',
         currentAct: '',
-        text: '(Você chegou em um ponto na sua viagem em que o que disser poderá - ou não - mudar o destino de NOX. Dependendo de suas decisões até agora, algumas opções extras podem ter sido abertas.\n\n Prossiga com cuidado.)' ,
+        text: '(Você chegou em um ponto na sua viagem em que o que disser poderá - ou não - mudar o destino de NOX. Dependendo de suas decisões até agora, algumas opções extras podem ter sido abertas. Prossiga com cuidado.)' ,
         options: [
             {
                 text: 'Ok... Me deixe pensar.',
@@ -728,7 +728,7 @@ const textNodes = [
     {
         id: 'reversion pt.2',
         currentAct: "",
-        text: 'Você sente que a máquina está confusa, sente as diversas linhas de uns e zeros tentando calcular o porquê da sua decisão. O cubo gira em volta de si mesmo por um tempo antes de responder. "Entendi. O que quer que tenha acontecido, tenho certeza que você não iria voltar para o começo depois de tanto material que preparei. Se você já ouviu toda a minha explicação, ótimo, terminamos por aqui! Imagino que posso fechar a Sala Branca agora, então por favor, avise a senhora Allers do que quer que tenha acontecido enquanto eu arrumo tudo por aqui, sim?". A luz da máquina se apaga, mas o cubo continua suspenso, apoiado em seu vértice.' ,
+        text: 'Você sente que a máquina está confusa, sente as diversas linhas de uns e zeros tentando calcular o porquê da sua decisão. O cubo gira em volta de si mesmo por um tempo antes de responder. "Entendi. O que quer que tenha acontecido, tenho certeza que você não iria voltar para o começo depois de tanto material que preparei. Se você já ouviu toda a minha explicação, ótimo, terminamos por aqui! Imagino que posso fechar a Sala Branca agora, então por favor, avise Dara do que quer que tenha acontecido enquanto eu arrumo tudo por aqui, sim?". A luz da máquina se apaga, mas o cubo continua suspenso, apoiado em seu vértice.' ,
         options: [
             {
                 text: '*Fechar a lente e sair da Sala*',
@@ -744,7 +744,7 @@ const textNodes = [
     {
         id: 'Brecha',
         currentAct: "",
-        text: 'Você vê o deus congelar. Algo nele parece se contorcer com desconforto, e então ele puxa de dentro de sua forma um pedaço de papel - um pergaminho. Por alguns momentos, você o observa estudando o pergaminho, seus olhos azuis se estreitando mais e mais a cada passagem lida silenciosamente, e então ele torna sua atenção para você. "Você tem razão." diz o deus em um tom desapontado, "Nossa lei expecifica aqueles envolvidos com os deuses, logo sua máquina não deve sofrer tal consequência.". Antes que você possa comemorar, porém, o deus continua: "Entretanto, é de meu conhecimento que partes de Katlynn Mardunn ainda permanecem por entre os circuitos desta criança, e por este motivo serei forçado a concretizar esta parte de nossa lei."' ,
+        text: 'Você vê o deus congelar. Algo nele parece se contorcer com desconforto, e então ele puxa de dentro de sua forma um pedaço de papel - um pergaminho. Por alguns momentos, você o observa estudando o pergaminho, seus olhos azuis se estreitando mais e mais a cada passagem lida silenciosamente, e então ele torna sua atenção para você. "Você tem razão." diz o deus em um tom desapontado, "Nossa lei expecifica apenas aqueles envolvidos com os deuses, logo sua máquina não deve sofrer tal consequência.". Antes que você possa comemorar, porém, o deus continua: "Entretanto, é de meu conhecimento que partes de Katlynn Mardunn ainda permanecem por entre os circuitos desta criança, e por este motivo ainda serei forçado a concretizar parte de nossa lei."' ,
         options: [
             {
                 text: 'Espera, isso é um engano. Você não pode fazer isso!',
@@ -755,7 +755,7 @@ const textNodes = [
     {
         id: 'breach',
         currentAct: "",
-        text: 'Com um rápido movimento, o deus colhe uma parte do pequeno orbe laranja à sua frente. Você ouve um grito agonizante, como o de uma mulher em grande sofrimento. O deus guarda a parte que recolheu dentro de sua forma, e lhe entrega o orbe. "Saiba que seria de minha preferência não ter de fazer isso, mas uma brecha contratual requer que eu produza uma solução justa, e Iuditus odeia quando uma brecha não permite uma solução.". O deus desaparece em um vortex azul, e você se vê encarando os Portões da Criação.' ,
+        text: 'Com um rápido movimento, o deus colhe uma parte do pequeno orbe laranja à sua frente. Você ouve um grito agonizante, como o de uma mulher em grande sofrimento. O deus guarda a parte que recolheu dentro de sua forma, e lhe entrega o orbe. "Saiba que seria de minha preferência não ter de fazer isso, mas uma brecha contratual requer que eu produza uma solução justa, e Iuditus odeia quando uma brecha não permite uma solução".\n O deus desaparece em um vortex azul, e você se vê encarando os Portões da Criação, um orbe brilhando laranja - mais fraco desta vez - encolhido em suas mãos.' ,
         options: [
             {
                 text: '*Retornar à Sala Branca*',
@@ -770,7 +770,7 @@ const textNodes = [
     {
         id: 'investigating gates',
         currentAct: "Investigando os Portões",
-        text: 'Chegando mais perto, os Portões da Criação são ainda mais imensos do que se fazem pensar. Cada porta possui uma aldrava ornada com diamantes, mas bater não parece chamar a atenção de ninguém. Os portões estão selados, tornando impossível de abri-los.\n Olhando com mais atenção, a obsidiana nos Portões parece ter sido danificada, mostrando diversas marcas do que parecem ser garras enomes. Um momento fazendo nada a não ser se recostar sobre a parede negra te revela que este é o final dos universos, e o que há além dessa barreira não faz parte da obra dos deuses.' ,
+        text: 'Chegando mais perto, os Portões da Criação são ainda mais imensos do que se fazem pensar. Cada porta possui uma aldrava ornada com diamantes, mas bater não parece chamar a atenção de ninguém. Os portões estão selados, tornando impossível de abri-los.\n Olhando com mais atenção, a obsidiana nos Portões parece ter sido danificada, mostrando diversas marcas do que parecem ser garras enomes. Um breve momento recostando-se sobre a parede negra te revela que este é o final dos universos, e o que há além dessa barreira não faz parte da obra dos deuses.' ,
         options: [
             {
                 text: '*Retornar à Sala Branca*',
@@ -787,7 +787,7 @@ const textNodes = [
     {
         id: 'returning orb',
         currentAct: "De volta à Sala",
-        text: 'Voltar à Sala Branca parece estranho seguindo pelo túnel de vidro, como se você estivesse invadindo uma casa da qual você tem as chaves. Saindo do buraco no chão, você encontra o pequeno cubo novamente, sendo lentamente manuseado pelo o que parece ser uma série de pilares brancos, saindo do chão. Os pilares não parecem ser hostis, movendo a máquina como uma onda ao longo de um trajeto fixo, semelhante a um carrossel.' ,
+        text: 'Voltar à Sala Branca parece estranho seguindo pelo túnel de vidro, como se você estivesse invadindo uma casa da qual você tem as chaves. Saindo do buraco no chão, você encontra o pequeno cubo novamente, sendo lentamente manuseado pelo o que parece ser uma série de pilares brancos, saindo do chão. Os pilares não parecem ser hostis, movendo a máquina em uma onda ao longo de um trajeto fixo, semelhante a um carrossel.' ,
         options: [
             {
                 text: '*Inserir o orbe no cubo*',
@@ -827,7 +827,7 @@ const textNodes = [
     {
         id: 'kat?',
         currentAct: '',
-        text: '' ,
+        text: 'Você não ouve nenhuma responta vindo do cubo.' ,
         options: [
             {
                 text: 'Katlynn isso não tem graça, fala comigo.',
@@ -860,7 +860,7 @@ const textNodes = [
     {
         id: 'recovering NOX',
         currentAct: '',
-        text: 'A máquina está completamente ereta, girando em seu próprio eixo e produzindo um lamente quase inaudível. "... Eu sinto uma falta de presença, como se algo dentro de mim tenha tivesse ido embora. É Katlynn, não? O que mais precisaria estar faltando em mim para eu perceber desta forma?" diz a máquina. NOX não parece tão enérgica quanto antes, conversando em um tom morto, depressivo. "Acho que já fizemos muito por hoje, não acha? Preciso descansar a mente um pouco, então por favor, vou ter que pedir que saia da Sala."' ,
+        text: 'A máquina está completamente ereta, girando em seu próprio eixo e produzindo um lamento quase inaudível. "... Eu sinto uma falta de presença, como se algo dentro de mim tivesse ido embora. É Katlynn, não? O que mais precisaria estar faltando em mim para eu perceber desta forma?" diz a máquina. NOX não parece tão enérgica quanto antes, conversando em um tom morto, depressivo. O cubo se move lentamente, indo em direção a nada em específico, como se deixasse a própria inércia ditar seu caminho. \n"Acho que já fizemos muito por hoje, não acha? Preciso descansar a mente um pouco, então por favor, vou ter que pedir que saia da Sala."' ,
         options: [
             {
                 text: 'Você vai ficar bem? Foi meio feio lá atrás.',
@@ -871,10 +871,10 @@ const textNodes = [
     {
         id: 'shooed away',
         currentAct: '',
-        text: '"Pode ter certeza que eu vou ficar docaralho aqui. Sério eu não quero ficar conversando sobre o que quer que tenha acontecido. Só vá embora, por favor. Você já ajudou muito."\n Você tem a sensação de que NOX prefere ficar sozinho por enquanto. Talvez seja melhor você ir?',
+        text: 'A máquina levanta a voz ao responder: "Pode ter certeza que eu vou ficar docaralho aqui!". O cubo fica em silêncio por um tempo, lentamente continuando seu lamento até quebrar o silêncio, em um tom mais calmo: "Sério eu não quero ficar conversando sobre o que quer que tenha acontecido. Só vá embora, por favor. Você já ajudou muito."\n Você tem a sensação de que NOX prefere ficar sozinha por enquanto. Talvez seja melhor você ir?',
         options: [
             {
-                text: '*Fechar a lente e sair da Sala*',
+                text: '*Relutantemente fechar a lente e sair da Sala*',
                 nextText: 'breach end'
             }
         ]
@@ -882,7 +882,7 @@ const textNodes = [
     {
         id: 'breach end',
         currentAct: 'Final: Brecha',
-        text: 'Você decidiu encontrar um furo na lei dos Deuses da Criação para salvar sua amiga. Eles manteram sua parte da promessa, mas não sem antes encontrar uma brecha na sua própria lógica. Não esqueça de avisar a doutora. \n \n - NOX se manteve intacta;\n - As memórias contidas na Memorabilia foram destruídas;\n - Seu acesso à Sala se manteve intacto;\n - Os deuses serão mais cautelosos quanto à sua presença.'
+        text: 'Você decidiu encontrar um furo na lei dos Deuses da Criação para salvar sua amiga. Eles manteram sua parte do acordo, mas não sem antes encontrar uma brecha na sua própria lógica e levarem consigo parte dela. Não esqueça de avisar a doutora. \n \n - NOX se manteve intacta, mas parece descontente;\n - As memórias contidas na Memorabilia foram destruídas;\n - Seu acesso à Sala se manteve intacto;\n - Os deuses serão mais cautelosos com suas barganhas.'
     },
     {
         id: 'Altruísmo',

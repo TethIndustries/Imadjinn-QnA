@@ -30,7 +30,7 @@ body {
     text-decoration: none;
     padding: 5px;
 }
-.social-icon:hover{color: white;}
+.social-icon:hover{color: hsl(22, 100%, 50%);}
 
 .tooltip {
   position: relative;
@@ -44,6 +44,7 @@ body {
   color: #fff;
   text-align: center;
   border-radius: 5px;
+  padding: 5px;
   
   /* Position the tooltip */
   position: absolute;
@@ -65,7 +66,7 @@ body {
 
 .footer{
     padding: 20px;
-    color: #77746f;
+    color: #a19d96;
     text-align: center;
     width: 100%;
 }
@@ -99,6 +100,7 @@ body {
 
 .container {
         text-align: justify;
+        line-height: 140%;
         background-color: #3f3d3a94 ;
         color: white;
         padding: 15px;
